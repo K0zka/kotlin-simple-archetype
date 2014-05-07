@@ -1,0 +1,9 @@
+<archetype>
+  <id>kotlin-simple-archetype</id>
+  <sources>
+    <source>src/main/kotlin/App.kt</source>
+  </sources>
+  <testSources>
+    <source>src/test/kotlin/AppTest.kt</source>
+  </testSources>
+</archetype>

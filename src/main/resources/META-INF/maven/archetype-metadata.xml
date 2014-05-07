@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="app-server">
+    <fileSets>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>src/main/kotlin</directory>
+            <includes>
+                <include>**/*.kt</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+    <fileSet filtered="true" encoding="UTF-8">
+        <directory>src/main/resources</directory>
+        <includes>
+            <include>**/*.xml</include>
+        </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+        <directory>src/test/resources</directory>
+        <includes>
+            <include>**/*.xml</include>
+        </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+        <directory>src/test/kotlin</directory>
+        <includes>
+            <include>**/*.kt</include>
+        </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+        <directory></directory>
+        <includes>
+            <include>pom.xml</include>
+        </includes>
+    </fileSet>
+</archetype-descriptor>
