@@ -12,6 +12,13 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
         </license>
     </licenses>
+    <developers>
+        <developer>
+            <id>K0zka</id>
+            <name>Laszlo Hornyak</name>
+            <url>http://dummywarhead.blogspot.com/</url>
+        </developer>
+    </developers>
     <scm>
         <connection>scm:git:https://github.com/K0zka/kotlin-simple-archetype</connection>
         <developerConnection>scm:git:https://github.com/K0zka/kotlin-simple-archetype</developerConnection>
