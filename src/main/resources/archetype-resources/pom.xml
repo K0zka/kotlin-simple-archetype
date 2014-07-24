@@ -8,7 +8,7 @@
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kunit</artifactId>
-            <version>0.7.271</version>
+            <version>0.8.11</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -24,7 +24,7 @@
             <plugin>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <groupId>org.jetbrains.kotlin</groupId>
-                <version>0.7.271</version>
+                <version>0.8.11</version>
 
                 <executions>
                     <execution>
