@@ -4,11 +4,24 @@
     <groupId>$groupId</groupId>
     <artifactId>$artifactId</artifactId>
     <version>$version</version>
+    <properties>
+        <kotlin.version>0.10.1316</kotlin.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-runtime</artifactId>
+            <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-stdlib</artifactId>
+            <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kunit</artifactId>
-            <version>0.8.11</version>
+            <version>${kotlin.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -24,7 +37,7 @@
             <plugin>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <groupId>org.jetbrains.kotlin</groupId>
-                <version>0.8.11</version>
+                <version>${kotlin.version}</version>
 
                 <executions>
                     <execution>
