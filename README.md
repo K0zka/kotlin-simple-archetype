@@ -12,7 +12,7 @@ To kickstart your [kotlin](http://kotlinlang.org/) project with [maven](http://m
 mvn archetype:create \
     -DarchetypeArtifactId=kotlin-simple-archetype \
     -DarchetypeGroupId=com.github.K0zka \
-    -DarchetypeVersion=0.8.11.1 \
+    -DarchetypeVersion=1.0.0-beta-1103.1 \
     -DgroupId=com.foo.bar \
     -DartifactId=kickass-app
 ```
