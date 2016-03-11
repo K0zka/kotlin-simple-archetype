@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.K0zka</groupId>
     <artifactId>kotlin-simple-archetype</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0.1-SNAPSHOT</version>
     <name>kotlin-simple-archetype</name>
     <url>https://github.com/K0zka/kotlin-simple-archetype</url>
     <inceptionYear>2014</inceptionYear>
