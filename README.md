@@ -1,6 +1,9 @@
 kotlin-simple-archetype
 =======================
 
+[![Kotlin](https://img.shields.io/badge/kotlin-1.0.0-blue.svg)](http://kotlinlang.org)
+
+
 Simple kotlin archetype for maven for libraries and stand alone apps
 
 Usage
