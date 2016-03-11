@@ -5,7 +5,7 @@
     <artifactId>$artifactId</artifactId>
     <version>$version</version>
     <properties>
-        <kotlin.version>1.0.0-beta-1103</kotlin.version>
+        <kotlin.version>1.0.0</kotlin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -17,12 +17,6 @@
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib</artifactId>
             <version>${kotlin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kunit</artifactId>
-            <version>${kotlin.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
