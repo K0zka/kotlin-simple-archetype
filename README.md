@@ -1,8 +1,12 @@
+@Deprecated
+===========
+
+[Kotlin 1.0.2 was released](https://blog.jetbrains.com/kotlin/2016/05/kotlin-1-0-2-is-here/) with an archetype, this project won't be needed in the future.
+
 kotlin-simple-archetype
 =======================
 
 [![Kotlin](https://img.shields.io/badge/kotlin-1.0.0-blue.svg)](http://kotlinlang.org)
-
 
 Simple kotlin archetype for maven for libraries and stand alone apps
 
